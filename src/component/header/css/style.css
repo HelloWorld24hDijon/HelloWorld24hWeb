@@ -1,4 +1,16 @@
-.footer{
-    background-color: :#4C1B1B;
+.Footer{
+    background-color:#222;
     color:white;
+}
+
+.NomEquipe{
+    float:right;
+    margin-right:5%;
+    background-color: #222;
+}
+
+.DateLieu{
+    float:left;
+    margin-left:5%;
+    background-color: #222;   
 }

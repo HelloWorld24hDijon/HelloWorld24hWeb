@@ -1,17 +1,27 @@
 import React, { Component } from 'react';
-import logo from '../../resource/logo.svg';
+import { Grid, Row, Col, code } from 'react-bootstrap';
 
 class Footer extends Component {
     render() {
         return (
-            <div className="Footer">
-                <div className="NomEquipe">
-                    <p>Equipe Hello World</p>
-                </div>
-                <div className="DateLieu">
-                    <p>24h des DUT Informatique 2018</p>
-                </div>
-            </div>
+                <Grid className="Footer">
+            
+                    <Row className="DateLieu">
+                         <Col sm={12} md={8}>
+                            <code>24h des DUT Informatique 2018</code>
+                        </Col>
+                        
+                        
+                    </Row>
+                    <Row className="NomEquipe">
+                       <Col sm={12} md={8}>
+                            <code>Equipe Hello World</code>
+                        </Col>
+                    </Row>
+                   
+
+                </Grid>
+        
         );
     }
 }
