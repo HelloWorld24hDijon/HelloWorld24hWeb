@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
+import img from '../../resource/Images/table.jpg';
 
 class EventRepasNoel extends Component {
     render() {
@@ -7,7 +8,7 @@ class EventRepasNoel extends Component {
             <div className="Event">
                 <h2> <b><u> Evénement : Repas de Noël</u> </b> </h2>
                 <div>
-                    <img id="img5" src="table.jpg" alt="none" />
+                    <Image src={img} alt="none" />
                 </div>
                 <p> <u> Description : </u></p>
                 <p>	Nous vous invitons au repas de Noël avec toutes les personnes travaillant dans l'entreprise avec leurs proches. Nous comptons sur vous pour être présents a ce rendez vous.	</p>

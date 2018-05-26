@@ -1,10 +1,12 @@
 .Accueil{
     padding-top:10vh;
     padding-bottom:40vh;
-    color: #FCF9F0;
+    color: #E00178;
     margin-top:10vh;
     background-image:url(../../../resource/Images/anniv.jpg);
-    font-weight: bold;
+    background-position:center;
+    background-repeat:no-repeat;
+
 }
 
 .Accueil h1{
