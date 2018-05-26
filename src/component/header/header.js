@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from '../../resource/logo.svg';
 
 import Menu from './menu';
-import Accueil from '../body/accueil';
 
 class Header extends Component {
     render() {
@@ -13,7 +12,6 @@ class Header extends Component {
                     <h1 className="App-title">Welcome to React</h1>
                 </header>
                 <Menu />
-                <accueil />
             </div>
         );
     }
