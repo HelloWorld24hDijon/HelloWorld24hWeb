@@ -13,10 +13,6 @@ export default class AuthService {
         // Get a token from api server using the fetch api
         return this.fetch(`${this.domain}/login`, {
             method: 'POST',
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded",
-                "Cache-Control": "no-cache"
-            },
             body: JSON.stringify({
                 username,
                 password
@@ -71,7 +67,7 @@ export default class AuthService {
     fetch(url, options) {
         // performs api calls sending the required authentication headers
         const headers = {
-            'Content-Type': 'application/x-www-form-urlencoded'
+            'Content-Type': 'application/json'
         }
 
         // Setting Authorization header

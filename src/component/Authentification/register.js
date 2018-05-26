@@ -55,6 +55,7 @@ class Register extends Component {
                             className="form-submit"
                             value="SUBMIT"
                             type="submit"
+                            onClick={this.handleFormSubmit}
                         />
                     </form>
                 </div>
@@ -71,15 +72,8 @@ class Register extends Component {
     }
 
     handleFormSubmit(e) {
+        alert("Thanks to wait for the administrator to be registered.");
         e.preventDefault();
-
-        this.Auth.login(this.state.username, this.state.password)
-            .then(res => {
-                this.props.history.replace('/');
-            })
-            .catch(err => {
-                alert(err);
-            })
     }
 }
 

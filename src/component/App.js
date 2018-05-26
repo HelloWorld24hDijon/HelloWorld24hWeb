@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import '../css/App.css';
 import './footer/css/footer.css';
 
-import Accueil from './body/accueil';
 import Header from './header/header';
 import Footer from './footer/footer';
+import Accueil from './body/accueil';
 
 import AuthService from './Authentification/authservice';
-import withAuth from './Authentification/withAuth';
+//import withAuth from './Authentification/withAuth';
 const Auth = new AuthService();
 
 class App extends Component {
@@ -20,6 +20,7 @@ class App extends Component {
         return (
             <div className="App">
                 <Header />
+                <Accueil />
                 <Footer />
             </div>
         );
