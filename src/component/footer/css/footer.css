@@ -8,6 +8,16 @@
     bottom:0;
 }
 
+.Events-Footer .Footer {
+    position: relative;
+    height: 6%;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+
 .NomEquipe{
     padding:20px;    
     float:right;    

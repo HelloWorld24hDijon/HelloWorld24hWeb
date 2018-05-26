@@ -1,4 +1,43 @@
 .Menu {
     background-color: #222;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Menu .container {
+    margin-top: 0;
+}
+
+.Menu a {
+    color: #F6F6F6 !important;
+}
+
+.Menu a:hover, a:focus {
+    color: #F6F6F6 !important;
+    background-color: #808080 !important;
+}
+
+.Menu a:visited {
+    background-color: #808080 !important;
+}
+
+.Menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    overflow: hidden;
+    color: white;
+    text-align: justify;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font: bold 14px;
+    background: linear-gradient(45deg,#222,#808080);
+    background-clip: border-box;
+    background-size: auto auto;
+    text-transform: uppercase;
+}
+
+.Menu ul li {
+    border-right: 2px solid #686868;
+    border-left: 2px solid #686868;
 }

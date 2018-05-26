@@ -1,37 +1,13 @@
-h2{ 
-	text-align : center ;
-	color:red ;
- }
-
-div{ 
-	text-align : center ; 
-	}
-
-	
-p{ 
-	font-size : 16px ;
-	text-align : center;
+.container {
+    margin-top: 10vh;
+    width: 100% !important;
 }
 
-#img3{
-		height : 220px; }
+img {
+    width: 125px;
+}
 
-		
-#img2{ 
-		height : 150px ; 
-		
-	}
-	
-	
-#img6 { 
-		height : 350px ; 
-		} 
-
-		
-#img5{ 
-		height : 300px ; 
-		}
-
-#img4{
-		height : 200px; 
-		}
+.Event {
+    margin: 10px;
+    background-color: #F6F6F6;
+}

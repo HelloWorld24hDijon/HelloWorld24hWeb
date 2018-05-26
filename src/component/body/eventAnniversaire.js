@@ -1,23 +1,25 @@
 import React, { Component } from 'react';
-import logo from '../../resource/logo.svg';
+import { Image } from 'react-bootstrap';
+import img from '../../resource/Images/images.png';
+import img2 from '../../resource/Images/Logo_anniversaire.png';
 
 class EventAnniversaire extends Component {
     render() {
         return (
-            <div className="EventAnniversaire">
-                <h2> <b><u> Evénement : Anniversaire </u></b> </h2> 
+            <div className="Event">
+                <h2> <b><u> Evénement : Anniversaire </u></b> </h2>
                 <div>
-                <img id="img1"src="images.png" alt="none" />
+                    <Image src={img} alt="none" />
                 </div>
-                <p> <u> Description : </u></p> 
-                <p>Nous vous attendons très nombreux afin de pourvoir féter les un ans de l'entreprise </p> 
+                <p> <u> Description : </u></p>
+                <p>Nous vous attendons très nombreux afin de pourvoir féter les un ans de l'entreprise </p>
                 <p> Rendez vous à <u>17h le 6 juin 2018 </u> au bureau. </p>
                 <div>
-                <img id="img2"src="Logo_anniversaire.png" alt="none" />	
+                    <Image src={img2} alt="none" />
                 </div>
                 <br></br>
-                
-                <hr/>
+
+                <hr />
             </div>
         );
     }
