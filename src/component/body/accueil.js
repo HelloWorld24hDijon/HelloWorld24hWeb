@@ -13,6 +13,11 @@ class Accueil extends Component {
                     <h1>Bienvenue sur notre site !</h1>
                     <p>Vous trouverez ici un large choix d'organisation d'évènements.</p>
                     <p>Ce site a été réalisé durant l'épreuve web des 24h des iut !</p>
+            
+                    <div id="texte">
+                        Reunionou.app est une application qui vous permet à vous et  d'autres personnes et permet de se fixer un rendez-vous en un lieu déterminé !
+                        L'application est gratuite et disponible sur de multiple support !
+                    </div>
                </div>
             </div>
         );
