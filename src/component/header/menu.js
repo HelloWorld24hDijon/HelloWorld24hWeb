@@ -28,6 +28,8 @@ class Menu extends Component {
                             A propos
                         </NavItem>
                     </LinkContainer>
+                    
+                    
                 </Nav>
             </div>
         );
