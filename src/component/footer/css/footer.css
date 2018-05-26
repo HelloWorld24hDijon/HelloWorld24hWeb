@@ -6,6 +6,7 @@
     color:white;
     text-align:center;
     bottom:0;
+    
 }
 
 .Events-Footer .Footer {
@@ -19,11 +20,25 @@
 }
 
 .NomEquipe{
-    padding:20px;    
+    padding-top:20px;    
     float:right;    
 }
 
 .DateLieu{
-    padding:20px;
+    padding-top:20px; 
     float:left; 
+}
+
+.NomEquipe:hover{
+    padding-top:20px;    
+    float:right;    
+    
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: white;
+    background-color: #222;
+    border-radius: 4px;
 }

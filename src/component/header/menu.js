@@ -35,7 +35,7 @@ class Menu extends Component {
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-            </div>
+           </div>
         );
     }
 }
