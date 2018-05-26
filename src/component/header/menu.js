@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Nav} from 'react-bootstrap';
 import {NavItem} from 'react-bootstrap';
 import logo from '../../resource/logo.svg';
+import Events from 'react';
 
 class Menu extends Component {
     handleSelect(selectedKey) {
@@ -26,9 +27,9 @@ class Menu extends Component {
                 </Nav>*/
            
            <ul>
-                <li><a href="#">Accueil</a></li>
+                <li><a href="/app">Accueil</a></li>
                 <li><a href="/Events">Evenements</a></li>
-                <li><a href="#">Informations</a></li>
+                <li><a href="/Informations">Informations</a></li>
                 
            </ul>
            
