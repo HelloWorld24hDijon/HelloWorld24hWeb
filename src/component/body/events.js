@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import logo from '../../resource/logo.svg';
+
+import Accueil from './accueil';
+import Header from '../header/header';
+import Footer from '../footer/footer';
 import EventAnniversaire from './eventAnniversaire';
 import EventReunion from './eventReunion';
 import EventGala from './eventGala';
@@ -9,22 +12,20 @@ import EventMariage from './eventMariage';
 class Events extends Component {
     render() {
         return (
-            <div className="Events">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h1 className="App-title">Welcome to React</h1>
-                </header>
-				
-				<EventAnniversaire />
+            <div className="App">
+                <Header />
 
-				<EventReunion />
-					
-				<EventGala />
-			
-				<EventRepasNoel />
-					
-				<EventMariage />
-				
+                <EventAnniversaire />
+
+                <EventReunion />
+
+                <EventGala />
+
+                <EventRepasNoel />
+
+                <EventMariage />
+                   
+                <Footer />
             </div>
         );
     }
