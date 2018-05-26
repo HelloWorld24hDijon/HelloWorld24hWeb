@@ -32,7 +32,7 @@
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     font: bold 14px;
-    background: linear-gradient(45deg,#222,#808080);
+    background: linear-gradient(45deg,#065f4d,#1abc9c);
     background-clip: border-box;
     background-size: auto auto;
     text-transform: uppercase;

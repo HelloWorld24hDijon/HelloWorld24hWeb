@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Col, Row } from 'react-bootstrap';
 import './css/body.css';
 
-import Accueil from './accueil';
 import Header from '../header/header';
 import Footer from '../footer/footer';
 import EventAnniversaire from './eventAnniversaire';
