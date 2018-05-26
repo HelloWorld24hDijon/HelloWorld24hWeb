@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../resource/logo.svg';
+import { Grid, Row, Col } from 'react-bootstrap';
 
 class Body extends Component {
     render() {
