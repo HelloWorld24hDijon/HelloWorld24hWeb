@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/App.css';
 import './header/css/style.css';
 import './header/css/menu.css';
+import Accueil from './body/accueil';
 
 import Header from './header/header';
 import Footer from './footer/footer';
@@ -17,6 +18,7 @@ class App extends Component {
                 To get started, edit <code>src/App.js</code> and save to reload*
             </p>
             */}
+            <Accueil />
             <Footer />
         </div>
         );
