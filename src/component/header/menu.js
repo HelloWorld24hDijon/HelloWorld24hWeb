@@ -12,7 +12,7 @@ class Menu extends Component {
     render() {        
         return (
            <div className="Menu">
-               <Nav bsStyle="pills" activeKey={1}>
+               <Nav bsStyle="pills">
                     <LinkContainer to={`/`}>
                         <NavItem eventKey={1} >
                             Accueil
@@ -20,7 +20,7 @@ class Menu extends Component {
                     </LinkContainer>
                     <LinkContainer to={`/events`}>
                         <NavItem eventKey={2} >
-                            Évènements
+                            Évènements Public
                         </NavItem>
                     </LinkContainer>
                     <LinkContainer to={`/a-propos`}>
