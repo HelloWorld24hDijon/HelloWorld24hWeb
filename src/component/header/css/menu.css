@@ -1,0 +1,26 @@
+ul{
+    padding:0;
+    margin-left:15%;
+    margin-top:10px;
+    margin-bottom:10px;
+    list-style-type: none;
+}
+
+li{
+    margin:5px;
+    float:left;
+}
+ul li a {
+    display:block;
+    float:left;
+    width:150px;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    border-radius:10px;
+    border:1px solid;
+}
+ul li a:hover{
+    color:#61DAFB;
+}

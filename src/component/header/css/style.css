@@ -1,0 +1,19 @@
+.Footer{
+    position:absolute;
+    height:6%;
+    width:100%;
+    background-color:#222;
+    color:white;
+    text-align:center;
+    bottom:0;
+}
+
+.NomEquipe{
+    padding:20px;    
+    float:right;    
+}
+
+.DateLieu{
+    padding:20px;
+    float:left; 
+}
