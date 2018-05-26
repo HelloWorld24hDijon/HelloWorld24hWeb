@@ -11,7 +11,7 @@ class Informations extends Component {
                 <Header />
                 <A_propos />
                 <Footer />
-            </div >
+            </div>
         );
     }
 }

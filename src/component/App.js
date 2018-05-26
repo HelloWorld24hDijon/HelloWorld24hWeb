@@ -3,9 +3,6 @@ import '../css/App.css';
 import './footer/css/footer.css';
 import './body/css/accueil.css';
 
-import Accueil from './body/accueil';
-import A_propos from './body/a_propos';
-
 import Header from './header/header';
 import Footer from './footer/footer';
 import Accueil from './body/accueil';
@@ -25,9 +22,6 @@ class App extends Component {
             <div className="App">
                 <Header />
                 <Accueil />
-
-                <A_propos />
-
                 <Footer />
             </div>
         );
