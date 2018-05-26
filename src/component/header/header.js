@@ -9,10 +9,9 @@ class Header extends Component {
             <div className="Header">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
-                    <h1 className="App-title">Welcome to React</h1>
-                    <p>{this.props.text}</p>
+                    <h1 className="App-title">Welcome from Hello World !</h1>
+                    <Menu />
                 </header>
-                <Menu />
             </div>
         );
     }

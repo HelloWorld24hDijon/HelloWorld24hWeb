@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
-import {Nav} from 'react-bootstrap';
-import {NavItem} from 'react-bootstrap';
-import logo from '../../resource/logo.svg';
-import Events from 'react';
+﻿import React, { Component } from 'react';
+import { Nav, NavItem } from 'react-bootstrap';
+import { LinkContainer } from "react-router-bootstrap";
 
 class Menu extends Component {
     handleSelect(selectedKey) {
@@ -12,16 +10,22 @@ class Menu extends Component {
     render() {
         
        return (     
-            <Nav bsStyle="pills"  activeKey={1} onSelect={this.handleSelect}>
-                <NavItem eventKey={1} href="/">
-                    Accueil
-                </NavItem>
-                <NavItem eventKey={2} href="/events">
-                    Evenements
-                </NavItem>
-                <NavItem eventKey={3} href="/Informations">
-                    Informations
-                </NavItem>
+           <Nav bsStyle="pills" activeKey={1}>
+                <LinkContainer to={`/`}>
+                    <NavItem eventKey={1} >
+                        Accueil
+                    </NavItem>
+                </LinkContainer>
+                <LinkContainer to={`/events`}>
+                    <NavItem eventKey={2} >
+                        Évènements
+                    </NavItem>
+                </LinkContainer>
+                <LinkContainer to={`/a-propos`}>
+                    <NavItem eventKey={3} >
+                        A propos
+                    </NavItem>
+                </LinkContainer>
             </Nav>
         );
     }

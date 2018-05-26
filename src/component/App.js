@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-import './header/css/style.css';
-import './header/css/menu.css';
-import Accueil from './body/accueil';
+import './footer/css/footer.css';
 
+import Accueil from './body/accueil';
 import Header from './header/header';
 import Footer from './footer/footer';
 
@@ -20,10 +19,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Header text="ceci est le text du header" />
-                <p className="App-intro">
-                    <button type="button" className="form-submit" onClick={this.handleLogout.bind(this)}>Logout</button>
-                </p>
+                <Header />
                 <Footer />
             </div>
         );
