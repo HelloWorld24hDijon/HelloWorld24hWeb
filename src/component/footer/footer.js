@@ -6,14 +6,14 @@ class Footer extends Component {
                 <Grid className="Footer">
             
                     <Row className="DateLieu">
-                         <Col sm={12} md={8}>
+                         <Col sm={12} md={20}>
                             <code>24h des DUT Informatique 2018</code>
                         </Col>
                         
                         
                     </Row>
                     <Row className="NomEquipe">
-                       <Col sm={12} md={8}>
+                       <Col sm={12} md={20}>
                             <code>Equipe Hello World</code>
                         </Col>
                     </Row>
