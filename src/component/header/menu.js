@@ -27,7 +27,7 @@ class Menu extends Component {
            
            <ul>
                 <li><a href="#">Accueil</a></li>
-                <li><a href="#">Evenements</a></li>
+                <li><a href="/Events">Evenements</a></li>
                 <li><a href="#">Informations</a></li>
                 
            </ul>
